@@ -7,7 +7,7 @@ def round_up(n, decimals=0):
     return math.ceil(n * multiplier) / multiplier
 
 def abrirConex():
-    conn = sqlite3.connect("db.sqlite3")
+    conn = sqlite3.connect("/root/db.sqlite3")
     return conn
 
 def getAnguloOpt():
