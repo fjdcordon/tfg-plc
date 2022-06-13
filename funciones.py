@@ -17,7 +17,7 @@ def getAnguloOpt():
     r = cur.fetchall()
     return r[0][1]
 
-def moverPlaca(angulo):
+def moverPlaca(angulo: object) -> object:
     try:
         conn = abrirConex()
         cur = conn.cursor()
