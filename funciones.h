@@ -10,7 +10,7 @@ PyObject *import_name(const char *modname, const char *symbol){
 }
 
 float calcularEnergia(){
-    PyObject *func = import_name("/root/funciones", "calcularEnergia");
+    PyObject *func = import_name("funciones", "calcularEnergia");
     PyObject *args = PyTuple_New(0);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
@@ -21,7 +21,7 @@ float calcularEnergia(){
 }
 
 int getStatus(){
-    PyObject *func = import_name("/root/funciones", "getStatus");
+    PyObject *func = import_name("funciones", "getStatus");
     PyObject *args = PyTuple_New(0);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
@@ -32,7 +32,7 @@ int getStatus(){
 }
 
 int getAnguloAct(){
-    PyObject *func = import_name("/root/funciones", "getAnguloAct");
+    PyObject *func = import_name("funciones", "getAnguloAct");
     PyObject *args = PyTuple_New(0);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
@@ -43,7 +43,7 @@ int getAnguloAct(){
 }
 
 int setStatus(int status){
-    PyObject *func = import_name("/root/funciones", "setStatus");
+    PyObject *func = import_name("funciones", "setStatus");
     PyObject *args = Py_BuildValue("(i)", status);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
@@ -54,7 +54,7 @@ int setStatus(int status){
 }
 
 int moverPlaca(int angulo){
-    PyObject *func = import_name("/root/funciones", "moverPlaca");
+    PyObject *func = import_name("funciones", "moverPlaca");
     PyObject *args = Py_BuildValue("(i)", angulo);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
@@ -65,7 +65,7 @@ int moverPlaca(int angulo){
 }
 
 int reset(int mem){
-    PyObject *func = import_name("/root/funciones", "reset");
+    PyObject *func = import_name("funciones", "reset");
     PyObject *args = Py_BuildValue("(i)", mem);
     PyObject *kwargs = NULL;
     PyObject *result = PyObject_Call(func, args, kwargs);
