@@ -16,18 +16,3 @@ struct ind_tp
     unsigned int credits: 2; 
     struct ind_ap ap_proto;
 };
-
-void printProto(struct ind_tp tp_proto){
-  printf("--PROTOCOLO DE TRANSPORTE--\n");
-  printf("ID_proto: %d \n", tp_proto.ID_proto);
-  printf("ID_source: %s \n", tp_proto.ID_source);
-  printf("ID_dest %s \n", tp_proto.ID_dest);
-  printf("tpdu_type: %d \n", tp_proto.tpdu_type);
-  printf("credits: %d \n", tp_proto.credits);  
-  printf("--PROTOCOLO DE APLICACIÓN--\n");
-  printf("type: %d\n", tp_proto.ap_proto.type);
-  printf("option: %d\n", tp_proto.ap_proto.option);
-  printf("err: %d\n", tp_proto.ap_proto.err);
-  printf("mem_addr: %d\n", tp_proto.ap_proto.mem_addr);
-  printf("value: %d\n\n", tp_proto.ap_proto.value);     
-}
