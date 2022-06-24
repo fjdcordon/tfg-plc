@@ -25,7 +25,7 @@ localectl set-keymap --no-convert es
 pacman -Syyu git python-pip
 git clone https://github.com/fjdcordon/tfg-plc
 cd tfg-plc
-sudo ./setup.sh
+./setup.sh
 ```
 El primer comando sirve para cambiar el *layout* del teclado al Español. Se pueden consultar todos los tipos de *layout* con el comando  *localectl list-keymaps*.
 
