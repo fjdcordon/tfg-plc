@@ -21,7 +21,7 @@ Instalación
 5. Con la sesión de root iniciada ejecutaremos los siguientes comandos:
 
 ```bash
-localectl set-keymap --no-convert es
+localectl set-keymap es
 pacman -Syyu git python-pip
 git clone https://github.com/fjdcordon/tfg-plc
 cd tfg-plc
