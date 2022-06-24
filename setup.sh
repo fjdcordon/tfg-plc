@@ -8,4 +8,4 @@ pip install apscheduler
 systemctl enable plc
 systemctl enable updateAngle
 cp eth0.network /etc/systemd/network
-shutdown
+shutdown now
