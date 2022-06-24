@@ -1,0 +1,12 @@
+[Unit]
+Description=PLC Industrial
+After=systemd-networkd.service
+After=systemd-networkd-wait-online.service
+After=systemd-network-generator.service
+
+[Service]
+WorkingDirectory=/root
+ExecStart=plc
+
+[Install]
+WantedBy=multi-user.target

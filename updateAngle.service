@@ -1,0 +1,9 @@
+[Unit]
+Description=Autoupdate angle
+
+[Service]
+ExecStart=python updateAngle.py
+WorkingDirectory=/root
+
+[Install]
+WantedBy=multi-user.target
