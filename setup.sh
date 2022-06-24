@@ -9,4 +9,6 @@ pip install apscheduler
 systemctl enable plc
 systemctl enable updateAngle
 cp eth0.network /etc/systemd/network
+cd ..
+rm -rf tfg-plc
 shutdown now
