@@ -1,4 +1,4 @@
-PLC Industrial simulado (PLC-SIM) de una instalación fotovoltaica
+PLC Industrial simulado (PLC-SIM) que controla una instalación fotovoltaica
 =============
 
 Este PLC Industrial simulado (PLC-SIM) es uno de los componentes del escenario que se ha puesto en marcha para la realización de una prueba de concepto (PoC) que tiene como objetivo analizar las posibilidades de explotación de vulnerabilidades en entornos del Internet Industrial de las Cosas (IIoT). Este escenario está compuesto además por otros dos elementos: un componente IT, un [servidor web](https://github.com/fjdcordon/tfg-servidorweb) para la monitorización y control de la infraestructura a distancia; y un componente IoT, un [Gateway IoT](https://github.com/fjdcordon/tfg-gateway) que hace de interfaz IT/OT.
