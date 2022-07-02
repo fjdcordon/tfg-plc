@@ -12,7 +12,7 @@ Instalación
 
 1. Dado que la infraestructura está virtualizada, hay que descargar un software de virtualización. En este caso, se ha optado por utilizar [Oracle VM VirtualBox](https://www.virtualbox.org/), un software de código abierto, gratuito y multiplataforma (Windows, GNU/Linux, Mac OS). Para instalarlo simplemente hay que seguir los pasos que se detallan en su página web.
 
-2. Descargar la imagen de máquina virtual de ArchLinux preparada para VirtualBox:  [Descargar Máquina](https://gitlab.archlinux.org/archlinux/arch-boxes/-/jobs/63545/artifacts/file/output/Arch-Linux-x86_64-virtualbox-20220623.63545.box)
+2. Descargar la imagen de máquina virtual de ArchLinux preparada para VirtualBox:  [Descargar Máquina](https://drive.google.com/file/d/1FIGEE-N-Xlzg8abZ2OHX4A0Zhp3Oi3jh/view?usp=sharing)
 
 3. Una vez descargado el archivo, lo descomprimiremos y localizaremos el fichero *box.ovf*. Ahora, abrimos VirtualBox abrimos el menú de Archivo o *File* (dependiendo del idioma en que este configurado el equipo anfitrión) y haremos click sobre *Importar servicio virtualizado* o *Import Appliance*. Como fuente elegiremos *Sistema local* o *Local File System* y elegiremos el mencionado archivo *box.ovf*. Pulsaremos en continuar, pondremos el nombre que deseemos a la máquina y dejaremos el resto de opciones por defecto.
 
